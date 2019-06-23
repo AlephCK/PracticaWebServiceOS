@@ -9,7 +9,7 @@ using WebServiceAppOS.Data;
 namespace WebServiceAppOS.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190623225140_Acreditaciones")]
+    [Migration("20190623231431_Acreditaciones")]
     partial class Acreditaciones
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -25,11 +25,11 @@ namespace WebServiceAppOS.Migrations
                     b.Property<string>("Matricula")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<bool>("Aceptado");
+                    b.Property<bool>("aceptado");
 
-                    b.Property<decimal>("CostoTotal");
+                    b.Property<decimal>("costoTotal");
 
-                    b.Property<int>("Creditos");
+                    b.Property<int>("creditos");
 
                     b.HasKey("Matricula");
 

@@ -14,6 +14,8 @@
   <ItemGroup>
     <Compile Remove="Migrations\20190623002114_Emplad.cs" />
     <Compile Remove="Migrations\20190623002114_Emplad.Designer.cs" />
+    <Compile Remove="Migrations\20190623231110_Acreditaciones.cs" />
+    <Compile Remove="Migrations\20190623231110_Acreditaciones.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>

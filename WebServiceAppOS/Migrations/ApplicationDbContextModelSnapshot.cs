@@ -23,11 +23,11 @@ namespace WebServiceAppOS.Migrations
                     b.Property<string>("Matricula")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<bool>("Aceptado");
+                    b.Property<bool>("aceptado");
 
-                    b.Property<decimal>("CostoTotal");
+                    b.Property<decimal>("costoTotal");
 
-                    b.Property<int>("Creditos");
+                    b.Property<int>("creditos");
 
                     b.HasKey("Matricula");
 

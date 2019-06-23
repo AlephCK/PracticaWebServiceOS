@@ -12,6 +12,7 @@ C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcorea
 C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.dll
 C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.pdb
 C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csprojAssemblyReference.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csprojAssemblyReference.cache
 C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csproj.CoreCompileInputs.cache
 C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorAssemblyInfo.cache
 C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorAssemblyInfo.cs
@@ -25,4 +26,3 @@ C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServ
 C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorTargetAssemblyInfo.cache
 C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.dll
 C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.pdb
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csprojAssemblyReference.cache

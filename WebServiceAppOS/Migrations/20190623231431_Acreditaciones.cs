@@ -11,9 +11,9 @@ namespace WebServiceAppOS.Migrations
                 columns: table => new
                 {
                     Matricula = table.Column<string>(nullable: false),
-                    Creditos = table.Column<int>(nullable: false),
-                    CostoTotal = table.Column<decimal>(nullable: false),
-                    Aceptado = table.Column<bool>(nullable: false)
+                    creditos = table.Column<int>(nullable: false),
+                    aceptado = table.Column<bool>(nullable: false),
+                    costoTotal = table.Column<decimal>(nullable: false)
                 },
                 constraints: table =>
                 {
