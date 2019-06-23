@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WebServiceAppOS.Models
 {
-        class Empleado
+      public class Empleado
         {
             public int Id { get; set; }
             public string Cedula_Empleado { get; set; }

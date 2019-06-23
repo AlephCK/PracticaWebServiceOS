@@ -13113,11 +13113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlephCK\\Source\\Repos\\WebServiceAppOS\\WebServiceAppOS\\WebServiceAppOS.csproj",
+      "projectUniqueName": "C:\\Users\\AlephCK\\Documents\\GitHub\\OS_Push_Practica3\\PracticaWebServiceOS\\WebServiceAppOS\\WebServiceAppOS.csproj",
       "projectName": "WebServiceAppOS",
-      "projectPath": "C:\\Users\\AlephCK\\Source\\Repos\\WebServiceAppOS\\WebServiceAppOS\\WebServiceAppOS.csproj",
+      "projectPath": "C:\\Users\\AlephCK\\Documents\\GitHub\\OS_Push_Practica3\\PracticaWebServiceOS\\WebServiceAppOS\\WebServiceAppOS.csproj",
       "packagesPath": "C:\\Users\\AlephCK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlephCK\\Source\\Repos\\WebServiceAppOS\\WebServiceAppOS\\obj\\",
+      "outputPath": "C:\\Users\\AlephCK\\Documents\\GitHub\\OS_Push_Practica3\\PracticaWebServiceOS\\WebServiceAppOS\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
