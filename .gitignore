@@ -1,0 +1,12 @@
+
+.vs/WebServiceAppOS/v15/.suo
+.vs/WebServiceAppOS/v15/Server/sqlite3/db.lock
+.vs/WebServiceAppOS/v15/Server/sqlite3/storage.ide
+.vs/WebServiceAppOS/v15/Server/sqlite3/storage.ide-shm
+*.ide-wal
+*.cache
+WebServiceAppOS/obj/Debug/netcoreapp2.2/WebServiceAppOS.csproj.CoreCompileInputs.cache
+WebServiceAppOS/obj/Debug/netcoreapp2.2/WebServiceAppOS.csprojAssemblyReference.cache
+WebServiceAppOS/obj/project.assets.json
+WebServiceAppOS/obj/WebServiceAppOS.csproj.nuget.cache
+WebServiceAppOS/obj/WebServiceAppOS.csproj.nuget.g.props
