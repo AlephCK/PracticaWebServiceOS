@@ -9,10 +9,14 @@ namespace WebServiceAppOS.Data
 {
    public class ApplicationDbContext : DbContext
     {
-        public DbSet<Empleado> Empleados { get; set; }
+        public DbSet<Acreditacion> Acreditaciones { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             :base(options)
+        {
+        }
+
+        public ApplicationDbContext()
         {
         }
 

@@ -9,8 +9,8 @@ using WebServiceAppOS.Data;
 namespace WebServiceAppOS.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190623002147_Empleado")]
-    partial class Empleado
+    [Migration("20190623225140_Acreditaciones")]
+    partial class Acreditaciones
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -20,26 +20,20 @@ namespace WebServiceAppOS.Migrations
                 .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            modelBuilder.Entity("WebServiceAppOS.Models.Empleado", b =>
+            modelBuilder.Entity("WebServiceAppOS.Models.Acreditacion", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<string>("Matricula")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Apellido");
+                    b.Property<bool>("Aceptado");
 
-                    b.Property<string>("Cedula_Empleado");
+                    b.Property<decimal>("CostoTotal");
 
-                    b.Property<string>("Cuenta_Empleado");
+                    b.Property<int>("Creditos");
 
-                    b.Property<string>("Email");
+                    b.HasKey("Matricula");
 
-                    b.Property<string>("Nombre");
-
-                    b.Property<decimal>("Sueldo");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Empleados");
+                    b.ToTable("Acreditaciones");
                 });
 #pragma warning restore 612, 618
         }
