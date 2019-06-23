@@ -1,0 +1,14 @@
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csproj.CoreCompileInputs.cache
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorAssemblyInfo.cache
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorAssemblyInfo.cs
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.AssemblyInfoInputs.cache
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.AssemblyInfo.cs
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.deps.json
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.runtimeconfig.json
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.runtimeconfig.dev.json
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.dll
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.pdb
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorTargetAssemblyInfo.cache
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.dll
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.pdb
+C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csprojAssemblyReference.cache
