@@ -4438,29 +4438,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "AppCoreModel/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "compile": {
-          "bin/placeholder/AppCoreModel.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AppCoreModel.dll": {}
-        }
-      },
-      "CoreApiClient/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.2",
-        "dependencies": {
-          "AppCoreModel": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CoreApiClient.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CoreApiClient.dll": {}
-        }
       }
     }
   },
@@ -12091,21 +12068,10 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "AppCoreModel/1.0.0": {
-      "type": "project",
-      "path": "../AppCoreModel/AppCoreModel.csproj",
-      "msbuildProject": "../AppCoreModel/AppCoreModel.csproj"
-    },
-    "CoreApiClient/1.0.0": {
-      "type": "project",
-      "path": "../CoreApiClient/CoreApiClient.csproj",
-      "msbuildProject": "../CoreApiClient/CoreApiClient.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "CoreApiClient >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0"
@@ -12140,11 +12106,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {
-            "D:\\Arianna\\Arianna Linette Diaz\\Visual Studio 2017\\Projects\\VecindarioFoodTruck\\PracticaWebServiceOS\\CoreApiClient\\CoreApiClient.csproj": {
-              "projectPath": "D:\\Arianna\\Arianna Linette Diaz\\Visual Studio 2017\\Projects\\VecindarioFoodTruck\\PracticaWebServiceOS\\CoreApiClient\\CoreApiClient.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

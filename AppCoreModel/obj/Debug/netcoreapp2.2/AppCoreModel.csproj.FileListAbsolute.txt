@@ -1,9 +1,0 @@
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\AppCoreModel\bin\Debug\netcoreapp2.2\AppCoreModel.deps.json
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\AppCoreModel\bin\Debug\netcoreapp2.2\AppCoreModel.dll
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\AppCoreModel\bin\Debug\netcoreapp2.2\AppCoreModel.pdb
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\AppCoreModel\obj\Debug\netcoreapp2.2\AppCoreModel.csprojAssemblyReference.cache
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\AppCoreModel\obj\Debug\netcoreapp2.2\AppCoreModel.csproj.CoreCompileInputs.cache
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\AppCoreModel\obj\Debug\netcoreapp2.2\AppCoreModel.AssemblyInfoInputs.cache
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\AppCoreModel\obj\Debug\netcoreapp2.2\AppCoreModel.AssemblyInfo.cs
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\AppCoreModel\obj\Debug\netcoreapp2.2\AppCoreModel.dll
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\AppCoreModel\obj\Debug\netcoreapp2.2\AppCoreModel.pdb

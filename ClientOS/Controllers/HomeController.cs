@@ -5,27 +5,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using ClientOS.Models;
-using Microsoft.Extensions.Options;
-using ClientOS.Utility;
-using ClientOS.Factory;
 
 namespace ClientOS.Controllers
 {
     public class HomeController : Controller
     {
-
-        private readonly IOptions<MySettingsModel> appSettings;
-
-        public HomeController(IOptions<MySettingsModel> app)
+        public IActionResult Index()
         {
-            appSettings = app;
-            ApplicationSettings.WebApiUrl = appSettings.Value.WebApiBaseUrl;
-
-        }
-
-        public async Task<IActionResult> Index()
-        {
-            var data = await ApiClientFactory.Instance.GetAcreditaciones();
             return View();
         }
 
