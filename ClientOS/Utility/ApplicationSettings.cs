@@ -9,12 +9,5 @@ namespace ClientOS.Utility
     {
         public static string WebApiUrl { get; set; }
 
-        public ApplicationSettings()
-        {
-            WebApiUrl = "http://localhost:6846/api/";
-
-        }
-
-
     }
 }
