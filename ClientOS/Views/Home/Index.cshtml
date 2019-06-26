@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WebServiceAppOS.Models.Acreditacion>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.creditos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.aceptado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.costoTotal)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Matricula)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.creditos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.aceptado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.costoTotal)
+            </td>
+           
+        </tr>
+}
+    </tbody>
+</table>
