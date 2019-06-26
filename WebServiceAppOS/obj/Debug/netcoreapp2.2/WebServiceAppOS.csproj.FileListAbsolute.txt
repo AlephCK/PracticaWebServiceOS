@@ -12,20 +12,6 @@ C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcorea
 C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.dll
 C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.pdb
 C:\Users\AlephCK\Source\Repos\WebServiceAppOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csprojAssemblyReference.cache
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csprojAssemblyReference.cache
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csproj.CoreCompileInputs.cache
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorAssemblyInfo.cache
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorAssemblyInfo.cs
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.AssemblyInfoInputs.cache
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.AssemblyInfo.cs
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.deps.json
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.runtimeconfig.json
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.runtimeconfig.dev.json
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.dll
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.pdb
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorTargetAssemblyInfo.cache
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.dll
-C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.pdb
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.deps.json
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.runtimeconfig.json
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.runtimeconfig.dev.json
@@ -40,3 +26,17 @@ D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorTargetAssemblyInfo.cache
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.dll
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.pdb
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.deps.json
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.runtimeconfig.json
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.runtimeconfig.dev.json
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.dll
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\bin\Debug\netcoreapp2.2\WebServiceAppOS.pdb
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csprojAssemblyReference.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.csproj.CoreCompileInputs.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorAssemblyInfo.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorAssemblyInfo.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.AssemblyInfoInputs.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.AssemblyInfo.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.RazorTargetAssemblyInfo.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.dll
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\WebServiceAppOS\obj\Debug\netcoreapp2.2\WebServiceAppOS.pdb

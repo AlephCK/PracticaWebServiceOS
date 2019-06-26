@@ -12,6 +12,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using WebServiceAppOS.Data;
+using WebServiceAppOS.Models;
 
 namespace WebServiceAppOS
 {
@@ -32,7 +33,7 @@ namespace WebServiceAppOS
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ApplicationDbContext context)
         {
             if (env.IsDevelopment())
             {
@@ -46,6 +47,21 @@ namespace WebServiceAppOS
 
             app.UseHttpsRedirection();
             app.UseMvc();
+
+            if (!context.Detalles.Any())
+            {
+                context.Detalles.AddRange(new List<Detalle>()
+                {
+                    new Detalle(){
+                        numEmision = 1,
+                        montoCredito = 1500,
+                        cantidadEstudiante = context.Acreditaciones.Count(),
+                        fechaTransmision = DateTime.Now
+                    }
+                });
+        
+                context.SaveChanges();
+            }
         }
     }
 }

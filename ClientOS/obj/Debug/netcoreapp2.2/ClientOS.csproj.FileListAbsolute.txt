@@ -28,3 +28,33 @@ D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.dll
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.pdb
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.csproj.CopyComplete
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\bin\Debug\netcoreapp2.2\ClientOS.deps.json
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\bin\Debug\netcoreapp2.2\ClientOS.runtimeconfig.json
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\bin\Debug\netcoreapp2.2\ClientOS.runtimeconfig.dev.json
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\bin\Debug\netcoreapp2.2\ClientOS.dll
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\bin\Debug\netcoreapp2.2\ClientOS.pdb
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\bin\Debug\netcoreapp2.2\ClientOS.Views.dll
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\bin\Debug\netcoreapp2.2\ClientOS.Views.pdb
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.csprojAssemblyReference.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.csproj.CoreCompileInputs.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.RazorAssemblyInfo.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.RazorAssemblyInfo.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.AssemblyInfoInputs.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.AssemblyInfo.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.TagHelpers.input.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.TagHelpers.output.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.RazorCoreGenerate.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.RazorTargetAssemblyInfo.cache
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.RazorTargetAssemblyInfo.cs
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.Views.pdb
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.dll
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.pdb
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.csproj.CopyComplete

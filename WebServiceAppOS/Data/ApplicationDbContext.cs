@@ -11,6 +11,8 @@ namespace WebServiceAppOS.Data
     {
         public DbSet<Acreditacion> Acreditaciones { get; set; }
 
+        public DbSet<Detalle> Detalles { get; set; }
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             :base(options)
         {

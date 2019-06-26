@@ -15,6 +15,7 @@ namespace WebServiceAppOS.Controllers
     public class AcreditacionController : ControllerBase
     {
         private readonly ApplicationDbContext _context;
+        private static readonly List<Acreditacion> acreditaciones = new List<Acreditacion>();
 
         public AcreditacionController(ApplicationDbContext context)
         {
@@ -41,6 +42,7 @@ namespace WebServiceAppOS.Controllers
 
             return acreditacion;
         }
+
 
         // PUT: api/Acreditacion/5
         [HttpPut("{id}")]
