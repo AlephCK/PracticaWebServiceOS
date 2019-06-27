@@ -19,7 +19,7 @@ namespace ClientOS.Controllers
 
         public async Task <IActionResult> Index()
         {
-            
+
             HttpClient client = _api.Initial();
             HttpResponseMessage res = await client.GetAsync("api/Acreditacion");
             HttpResponseMessage res2 = await client.GetAsync("api/Detalle");
@@ -32,40 +32,16 @@ namespace ClientOS.Controllers
                     detalles = JsonConvert.DeserializeObject<List<Detalle>>(result2)
 
                   };
-                
-                //acreditaciones = JsonConvert.DeserializeObject<List<Acreditacion>>(result);
             
             return View(acreDetails);
         }
 
-        //public async Task<IActionResult> Detalle()
-        //{
-           
-        //    HttpClient client = _api.Initial();
-        //    HttpResponseMessage res = await client.GetAsync("api/Detalle");
-
-        //    if (res.IsSuccessStatusCode)
-        //    {
-
-              
-
-        //        //var result = res.Content.ReadAsStringAsync().Result;
-        //        // detalles = JsonConvert.DeserializeObject<List<Detalle>>(result);
-        //    }
-
-
-        //    //return View(detalles);
-        //}
 
         public IActionResult Privacy()
         {
             return View();
         }
 
-        public IActionResult Pipo()
-        {
-            return View();
-        }
 
         public ActionResult Create()
         {

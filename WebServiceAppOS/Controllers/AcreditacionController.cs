@@ -20,12 +20,14 @@ namespace WebServiceAppOS.Controllers
         public AcreditacionController(ApplicationDbContext context)
         {
             _context = context;
+            fillDetails();
         }
 
         // GET: api/Acreditacion
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Acreditacion>>> GetAcreditaciones()
         {
+            
             return await _context.Acreditaciones.ToListAsync();
         }
 
@@ -33,6 +35,7 @@ namespace WebServiceAppOS.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Acreditacion>> GetAcreditacion(string id)
         {
+            
             var acreditacion = await _context.Acreditaciones.FindAsync(id);
 
             if (acreditacion == null)
@@ -47,7 +50,8 @@ namespace WebServiceAppOS.Controllers
         // PUT: api/Acreditacion/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAcreditacion(string id, Acreditacion acreditacion)
-        {
+        { 
+
             if (id != acreditacion.Matricula)
             {
                 return BadRequest();
@@ -82,12 +86,15 @@ namespace WebServiceAppOS.Controllers
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetAcreditacion", new { id = acreditacion.Matricula }, acreditacion);
+
+
         }
 
         // DELETE: api/Acreditacion/5
         [HttpDelete("{id}")]
         public async Task<ActionResult<Acreditacion>> DeleteAcreditacion(string id)
         {
+           
             var acreditacion = await _context.Acreditaciones.FindAsync(id);
             if (acreditacion == null)
             {
@@ -106,6 +113,32 @@ namespace WebServiceAppOS.Controllers
         }
 
   
+        private void fillDetails()
+        {
+
+            if (_context.Detalles.Any())
+            {
+
+                foreach (var detalle in _context.Detalles)
+                {
+                    _context.Detalles.Remove(detalle);
+
+                }
+
+                _context.Detalles.AddRange(new List<Detalle>()
+                {
+                    new Detalle(){
+                        numEmision = 1,
+                        montoCredito = 1500,
+                        cantidadEstudiante = _context.Acreditaciones.Count(),
+                        fechaTransmision = DateTime.Now
+                    }
+                });
+
+                _context.SaveChanges();
+            }
+
+        }
 
 
     }

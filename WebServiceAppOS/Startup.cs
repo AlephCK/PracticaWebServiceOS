@@ -49,20 +49,6 @@ namespace WebServiceAppOS
             app.UseMvc();
             app.UseStaticFiles();
 
-            if (!context.Detalles.Any())
-            {
-                context.Detalles.AddRange(new List<Detalle>()
-                {
-                    new Detalle(){
-                        numEmision = 1,
-                        montoCredito = 1500,
-                        cantidadEstudiante = context.Acreditaciones.Count(),
-                        fechaTransmision = DateTime.Now
-                    }
-                });
-        
-                context.SaveChanges();
-            }
         }
     }
 }

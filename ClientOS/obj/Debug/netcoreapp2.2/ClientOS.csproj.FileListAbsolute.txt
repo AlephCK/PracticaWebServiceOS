@@ -64,4 +64,3 @@ D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.dll
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.pdb
 D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.csproj.CopyComplete
-D:\Arianna\Arianna Linette Diaz\Visual Studio 2017\Projects\VecindarioFoodTruck\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\Home\Pipo.g.cshtml.cs
