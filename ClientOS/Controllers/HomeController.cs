@@ -45,14 +45,14 @@ namespace ClientOS.Controllers
         }
 
         [HttpPost]
-        public ActionResult create(Acreditacion acreditacion)
+        public ActionResult Create(Acreditacion acreditacion)
         {
-            using (var student = new HttpClient())
+            using (var client = new HttpClient())
             {
-                student.BaseAddress = new Uri("http://localhost:58022/api/Acreditacion");
+                client.BaseAddress = new Uri("http://localhost:58022/api/Acreditacion");
 
                 //HTTP POST
-                var postTask = student.PostAsJsonAsync<Acreditacion>("acreditacion", acreditacion);
+                var postTask = client.PostAsJsonAsync<Acreditacion>("acreditacion", acreditacion);
                 postTask.Wait();
 
                 var result = postTask.Result;
@@ -69,12 +69,12 @@ namespace ClientOS.Controllers
 
         public ActionResult Delete(int id)
         {
-            using (var student = new HttpClient())
+            using (var client = new HttpClient())
             {
-                student.BaseAddress = new Uri("http://localhost:58022/api/Acreditacion");
+                client.BaseAddress = new Uri("http://localhost:58022/api/Acreditacion");
 
                 //HTTP DELETE
-                var deleteTask = student.DeleteAsync("acreditacion/" + id.ToString());
+                var deleteTask = client.DeleteAsync("acreditacion/" + id.ToString());
                 deleteTask.Wait();
 
                 var result = deleteTask.Result;
@@ -87,7 +87,6 @@ namespace ClientOS.Controllers
 
             return RedirectToAction("Index");
         }
-
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
