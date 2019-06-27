@@ -39,10 +39,58 @@ namespace ClientOS.Controllers
             return View();
         }
 
-        public IActionResult Create()
+        public ActionResult Create()
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult create(Acreditacion acreditacion)
+        {
+            using (var student = new HttpClient())
+            {
+                student.BaseAddress = new Uri("http://localhost:58022/api/Acreditacion");
+
+                //HTTP POST
+                var postTask = student.PostAsJsonAsync<Acreditacion>("acreditacion", acreditacion);
+                postTask.Wait();
+
+                var result = postTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    return RedirectToAction("Index");
+                }
+            }
+
+            ModelState.AddModelError(string.Empty, "Server Error. Please contact administrator.");
+
+            return View(acreditacion);
+        }
+
+        public ActionResult Edit(int id)
+        {
+            Acreditacion acreditacion = null;
+
+            using (var student = new HttpClient())
+            {
+                student.BaseAddress = new Uri("http://localhost:58022/api/Acreditacion");
+                //HTTP GET
+                var responseTask = student.GetAsync("acreditacion?id=" + id.ToString());
+                responseTask.Wait();
+
+                var result = responseTask.Result;
+                if (result.IsSuccessStatusCode)
+                {
+                    var readTask = result.Content.ReadAsAsync<Acreditacion>();
+                    readTask.Wait();
+
+                    acreditacion = readTask.Result;
+                }
+            }
+
+            return View(acreditacion);
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
