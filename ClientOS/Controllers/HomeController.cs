@@ -67,28 +67,25 @@ namespace ClientOS.Controllers
             return View(acreditacion);
         }
 
-        public ActionResult Edit(int id)
+        public ActionResult Delete(int id)
         {
-            Acreditacion acreditacion = null;
-
             using (var student = new HttpClient())
             {
                 student.BaseAddress = new Uri("http://localhost:58022/api/Acreditacion");
-                //HTTP GET
-                var responseTask = student.GetAsync("acreditacion?id=" + id.ToString());
-                responseTask.Wait();
 
-                var result = responseTask.Result;
+                //HTTP DELETE
+                var deleteTask = student.DeleteAsync("acreditacion/" + id.ToString());
+                deleteTask.Wait();
+
+                var result = deleteTask.Result;
                 if (result.IsSuccessStatusCode)
                 {
-                    var readTask = result.Content.ReadAsAsync<Acreditacion>();
-                    readTask.Wait();
 
-                    acreditacion = readTask.Result;
+                    return RedirectToAction("Index");
                 }
             }
 
-            return View(acreditacion);
+            return RedirectToAction("Index");
         }
 
 
