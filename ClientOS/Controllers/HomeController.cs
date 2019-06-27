@@ -19,22 +19,50 @@ namespace ClientOS.Controllers
 
         public async Task <IActionResult> Index()
         {
-            List<Acreditacion> acreditaciones = new List<Acreditacion>();
+            
             HttpClient client = _api.Initial();
             HttpResponseMessage res = await client.GetAsync("api/Acreditacion");
+            HttpResponseMessage res2 = await client.GetAsync("api/Detalle");
+            var result = res.Content.ReadAsStringAsync().Result;
+            var result2 = res2.Content.ReadAsStringAsync().Result;
 
-            if (res.IsSuccessStatusCode)
-            {
+                var acreDetails = new AcreditacionDetalle
+                {
+                    acreditaciones = JsonConvert.DeserializeObject<List<Acreditacion>>(result),
+                    detalles = JsonConvert.DeserializeObject<List<Detalle>>(result2)
 
-                var result = res.Content.ReadAsStringAsync().Result;
-                acreditaciones = JsonConvert.DeserializeObject<List<Acreditacion>>(result);
-            }
-
-
-            return View(acreditaciones);
+                  };
+                
+                //acreditaciones = JsonConvert.DeserializeObject<List<Acreditacion>>(result);
+            
+            return View(acreDetails);
         }
 
+        //public async Task<IActionResult> Detalle()
+        //{
+           
+        //    HttpClient client = _api.Initial();
+        //    HttpResponseMessage res = await client.GetAsync("api/Detalle");
+
+        //    if (res.IsSuccessStatusCode)
+        //    {
+
+              
+
+        //        //var result = res.Content.ReadAsStringAsync().Result;
+        //        // detalles = JsonConvert.DeserializeObject<List<Detalle>>(result);
+        //    }
+
+
+        //    //return View(detalles);
+        //}
+
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Pipo()
         {
             return View();
         }
@@ -93,5 +121,16 @@ namespace ClientOS.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+        public ActionResult costoTotal(int Matricula, int cantidadCreditos)
+        {
+            var valorCreditos = 1500;
+
+            return Content((valorCreditos * cantidadCreditos).ToString());
+
+
+        }
+
     }
 }

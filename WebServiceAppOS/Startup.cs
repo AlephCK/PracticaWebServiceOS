@@ -47,6 +47,7 @@ namespace WebServiceAppOS
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            app.UseStaticFiles();
 
             if (!context.Detalles.Any())
             {

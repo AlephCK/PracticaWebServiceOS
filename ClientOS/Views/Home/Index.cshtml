@@ -1,54 +1,54 @@
-﻿@model IEnumerable<WebServiceAppOS.Models.Acreditacion>
+﻿@model ClientOS.Models.AcreditacionDetalle
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<h2>Detalle</h2>
+
+<table class="table">
+    <tr>
+        <th>NumEmision</th>
+        <th>montoCredito</th>
+        <th>cantidadEstudiantes</th>
+        <th>fechaTransmision</th>
+    </tr>
+    @foreach (var detalle in Model.detalles)
+    {
+        <tr>
+            <td>@detalle.numEmision</td>
+            <td>@detalle.montoCredito</td>
+            <td>@detalle.cantidadEstudiante</td>
+            <td>@detalle.fechaTransmision</td>
+        </tr>
+    }
+</table>
+
+<h2>Acreditaciones</h2>
+<br />
 
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>
 
+
 <table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Matricula)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.creditos)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.aceptado)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.costoTotal)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Matricula)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.creditos)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.aceptado)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.costoTotal)
-            </td>
-            <td>
-                @Html.ActionLink("Delete", "Delete", new { id = item.Matricula })
-            </td>
-
-
-        </tr>
-}
-    </tbody>
+    <tr>
+        <th>Matricula</th>
+        <th>creditos</th>
+        <th>aceptado</th>
+        <th>costoTotal</th>
+    </tr>
+    @foreach (var acreditacion in Model.acreditaciones)
+    {
+    <tr>
+        <td>@acreditacion.Matricula</td>
+        <td>@acreditacion.creditos</td>
+        <td>@acreditacion.aceptado</td>
+        <td>@acreditacion.costoTotal</td>
+        <td>
+            @Html.ActionLink("Delete", "Delete", new { id = acreditacion.Matricula })
+        </td>
+    </tr>
+    }
 </table>
