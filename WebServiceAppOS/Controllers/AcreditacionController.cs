@@ -27,7 +27,7 @@ namespace WebServiceAppOS.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Acreditacion>>> GetAcreditaciones()
         {
-            
+           
             return await _context.Acreditaciones.ToListAsync();
         }
 
@@ -112,6 +112,8 @@ namespace WebServiceAppOS.Controllers
             return _context.Acreditaciones.Any(e => e.Matricula == id);
         }
 
+
+
   
         private void fillDetails()
         {
@@ -139,7 +141,6 @@ namespace WebServiceAppOS.Controllers
             }
 
         }
-
 
     }
 }

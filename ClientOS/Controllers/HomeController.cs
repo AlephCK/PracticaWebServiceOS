@@ -99,7 +99,7 @@ namespace ClientOS.Controllers
         }
 
 
-        public ActionResult costoTotal(int Matricula, int cantidadCreditos)
+        public ActionResult costoTotal(int cantidadCreditos)
         {
             var valorCreditos = 1500;
 
