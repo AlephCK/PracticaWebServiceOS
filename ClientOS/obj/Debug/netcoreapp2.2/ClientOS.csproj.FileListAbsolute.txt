@@ -58,3 +58,4 @@ C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientO
 C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.dll
 C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.pdb
 C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\ClientOS.csproj.CopyComplete
+C:\Users\AlephCK\Documents\GitHub\OS_Push_Practica3\PracticaWebServiceOS\ClientOS\obj\Debug\netcoreapp2.2\Razor\Views\Home\Create.g.cshtml.cs
